@@ -1,0 +1,33 @@
+header a {
+    color: #fff;
+}
+
+.cta {
+    background: #eaeaea;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #004e6f;
+    box-sizing: border-box;
+    color: #252525;
+    cursor: pointer;
+    float: right;
+    height: 50px;
+    line-height: 37px;
+    margin: 25px;
+    padding: 5px 15px;
+    width: auto;
+}
+
+.cta:hover {
+    background: #fff;
+    box-shadow: 0px 0px 19px #00618a;
+    color: #004e6f;
+}
+
+.cta:active {
+    background: #5b297f;
+    color: #fff;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+}
